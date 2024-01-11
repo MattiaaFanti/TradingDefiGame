@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defi Trading Game</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap">
+    <style>
+        body {
+            background-color: #000000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #content {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        #mystery-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        #coming-soon {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 15px 30px;
+            font-size: 1em;
+            background-color: #3498db;
+            color: #ffffff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        #coming-soon:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <img id="mystery-image" src="https://th.bing.com/th/id/OIG.EZC5a2LpRGFUm_kmF9hY?pid=ImgGn" alt="Mystery Image">
+        <a href="#" id="coming-soon">Coming Soon</a>
+    </div>
+</body>
+</html>
